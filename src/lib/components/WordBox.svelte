@@ -16,8 +16,9 @@
 		class="text-xl hocus-visible:text-blue-500 transition"
 	>
 		<span class="font-bold">{word.word}</span>
-		<span class="ml-1 faded">{word.vimsonjo}</span>
-		<span class="ml-1 faded">{word.kanji}</span>
+		
+		{#if word.vimsonjo}<span class="ml-1 faded">{word.vimsonjo}</span>{/if}
+		{#if word.kanji}<span class="ml-1 faded">{word.kanji}</span>{if}
 	</a>
 
 	<WordDetails {word} />
