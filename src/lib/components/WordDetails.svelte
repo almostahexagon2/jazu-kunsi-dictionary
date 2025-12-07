@@ -43,11 +43,9 @@
 	{#if word.origin && word.origin !== '-'}
 		<p class="space">
 			{word.origin}
-			<span class="faded"> from </span>
+			<span class="faded"> from {word.language} </span>
 		</p>
-		<p>
-			{word.language} 
-		</p>
+
 	{/if}
 	{#if word.extra}
 		<p class="space">
