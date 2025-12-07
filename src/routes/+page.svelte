@@ -46,17 +46,16 @@
 	function scoreWord(word: Word) {
 		return (
 			scoreMatch(word.word) * 100 +
-			scoreMatch(word.cyrillic) * 75 +
-			scoreMatch(word.meaning) * 50 +
+			scoreMatch(word.kanji) * 75 +
+			scoreMatch(word.vimsonjo) * 75 +
 			scoreMatch(word.adjective) * 20 +
 			scoreMatch(word.noun) * 20 +
 			scoreMatch(word.verb) * 20 +
-			scoreMatch(word.adverb) * 20 +
-			scoreMatch(word.preposition) * 20 +
+			scoreMatch(word.particle) * 20 +
 			scoreMatch(word.type) * 20 +
 			scoreMatch(word.origin) * 20 +
 			scoreMatch(word.language) * 20 +
-			scoreMatch(word.antonym) * 20
+			scoreMatch(word.mairoot) * 20
 		
 		);
 	}
