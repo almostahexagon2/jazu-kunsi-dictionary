@@ -7,49 +7,36 @@
 
 <div class:compact>
 	<p class="faded">{word.type.toLowerCase()}</p>
-	{#if word.meaning !== '-'}
-		<p class="space">{word.meaning}</p>
-	{/if}
-
-	{#if word.noun !== '-'}
+	{#if word.noun}
 		<p class="space">
-			<b>Noun.</b> &middot;
 			{word.noun}
 		</p>
 	{/if}
 
-	{#if word.adjective !== '-'}
+	{#if word.adjective}
 		<p class="space">
-			<b>Adj.</b> &middot;
+			<b>{word.word}i</b> &middot;
 			{word.adjective}
 		</p>
 	{/if}
 
-	{#if word.verb !== '-'}
+	{#if word.verb}
 		<p class="space">
-			<b>Verb</b> &middot;
+			<b>{word.word}ri</b> &middot;
 			{word.verb}
 		</p>
 	{/if}
 
-	{#if word.adverb !== '-'}
+	{#if word.particle}
 		<p>
-			<b>Adv.</b> &middot;
-			{word.adverb}
+			{word.particle}
 		</p>
 	{/if}
 
-	{#if word.preposition !== '-'}
-		<p>
-			<b>Prep.</b> &middot;
-			{word.preposition}
-		</p>
-	{/if}
-
-	{#if word.malroot}
+	{#if word.mairoot}
 		<p class="space">
-			<b>mal{word.word}</b> &middot;
-			{word.malroot}
+			<b>mai{word.word}</b> &middot;
+			{word.mairoot}
 		</p>
 	{/if}
 
