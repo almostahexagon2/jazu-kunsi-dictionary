@@ -6,21 +6,20 @@ import { sortAlphabetically } from '$lib/util.js';
 const GOOGLE_KEY = 'AIzaSyCjQVz242YwBGpsR8S64BKi0p4grBz_tGI';
 const SHEETS_API_BASE = 'https://sheets.googleapis.com/v4/spreadsheets';
 const SHEET_NAME = 'Dictionary';
-const SHEET_ID = '1IcDbxBUb7Ll2vu4zezW9iw0mPvZ_dUqYzc5dhc1VDaQ';
+const SHEET_ID = '1gE55EKK43mmfrR0zy4OA5NrmpPlrAvJSjspnplZXW-Q';
 
 const keys: Record<string, keyof Word> = {
 	Word: 'word',
-	Cyrillic: 'cyrillic',
 	Type: 'type',
-	Meaning: 'meaning',
-	Adjective: 'adjective',
 	Noun: 'noun',
+	Adjective: 'adjective',
 	Verb: 'verb',
-	Adverb: 'adverb',
-	Preposition: 'preposition',
+	Particle: 'particle',
 	Origin: 'origin',
 	Language: 'language',
-	Malroot: 'malroot',
+	Vimsonjo: 'vimsonjo',
+	Kanji: 'kanji',
+	Mairoot: 'mairoot',
 	Extra: 'extra'
 };
 
