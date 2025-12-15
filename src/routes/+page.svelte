@@ -89,15 +89,15 @@
 </script>
 
 <svelte:head>
-	<title>Namuxo Lanrepunido</title>
+	<title>pjukanama kijazu Kunci jo</title>
 
 	<meta
 		name="description"
-		content="Interactive dictionary for LRI."
+		content="Interactive dictionary for kijazu Kunci."
 	/>
-	<meta name="keywords" content="LRI, lanrepunido, dictionary, interactive, conlang" />
+	<meta name="keywords" content="kijazu Kunci, dictionary, interactive, conlang" />
 
-	<meta property="og:title" content="Namuxo Lanrepunido" />
+	<meta property="og:title" content="pjukanama kijazu Kunci jo" />
 	<meta
 		property="og:description"
 		content="Interactive dictionary for LRI."
@@ -105,11 +105,11 @@
 </svelte:head>
 
 <div class="flex justify-between items-end">
-	<h1 class="text-2xl sm:text-3xl font-bold">Namuxo Lanrepunido</h1>
+	<h1 class="text-2xl sm:text-3xl font-bold">pjukanama kijazu Kunci jo</h1>
 
 	<div class="flex gap-2">
 		<a
-			href="https://github.com/almostahexagon2/lri-dictionary"
+			href="https://github.com/almostahexagon2/jazu-kunci-dictionary"
 			class="interactive p-2"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -187,7 +187,7 @@
 	</div>
 </div>
 
-<p class="mt-4">Interactive dictionary for LRI.</p>
+<p class="mt-4">Interactive dictionary for kijazu Kunci.</p>
 
 <p class="mt-4">
 	<select class="interactive px-2 py-1" bind:value={$view}>
