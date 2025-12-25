@@ -20,6 +20,20 @@
 		</p>
 	{/if}
 
+	{#if word.verbt}
+		<p class="space">
+			Trans. <b>{word.word}ri</b> &middot;
+			{word.verbt}
+		</p>
+	{/if}
+	
+	{#if word.verbi}
+		<p class="space">
+			Intrans. <b>{word.word}ri</b> &middot;
+			{word.verbi}
+		</p>
+	{/if}
+
 	{#if word.verb}
 		<p class="space">
 			<b>{word.word}ri</b> &middot;
