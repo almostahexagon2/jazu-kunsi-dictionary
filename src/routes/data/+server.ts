@@ -14,6 +14,8 @@ const keys: Record<string, keyof Word> = {
 	Noun: 'noun',
 	Adjective: 'adjective',
 	Verb: 'verb',
+	TransVerb: 'verbt',
+	IntransVerb: 'verbi',
 	Particle: 'particle',
 	Origin: 'origin',
 	Language: 'language',
